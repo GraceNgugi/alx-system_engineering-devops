@@ -12,4 +12,6 @@ find . -type d -not -name '.' | wc -l - Write a script that counts the number of
 ls -t | head -n 10 - Create a script that displays the 10 newest files in the current directory.
 sort | uniq -u - Create a script that takes a list of words as input and prints only words that appear exactly once.
 grep "root" /etc/passw - Display lines containing the pattern “root” from the file /etc/passwd
+grep -c "bin" /etc/passwd - Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+
 
