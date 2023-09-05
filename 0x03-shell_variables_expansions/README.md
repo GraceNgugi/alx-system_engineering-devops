@@ -5,4 +5,6 @@ echo $PATH | tr ':' '\n' | grep -c / - Create a script that counts the number of
 printenv - Create a script that lists environment variables.
 set - Create a script that lists all local variables and environment variables, and functions.
 export BEST="School"  - Create a script that creates a new global variable.
+echo $((128 + TRUEKNOWLEDGE))- Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
+
 
