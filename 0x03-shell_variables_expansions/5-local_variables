@@ -1,2 +1,2 @@
 #!/bin/bash
-declare -p | grep -E 'declare -[aA][lL]|^function '
+(declare -p | grep -Eo '^[^ ]+'; compgen -A function)
