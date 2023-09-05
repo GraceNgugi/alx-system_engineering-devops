@@ -1,2 +1,2 @@
 #!/bin/bash
-(declare -p | grep -Eo '^[^ ]+'; compgen -A function)
+( ( compgen -v; compgen -e ) && declare -F -p ) | awk '{print $1}' | sort -u
