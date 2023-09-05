@@ -1,2 +1,2 @@
 #!/bin/bash
-( ( compgen -v; compgen -e ) && declare -F -p ) | awk '{print $1}' | sort -u
+set
