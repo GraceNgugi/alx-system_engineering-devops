@@ -11,6 +11,6 @@ echo $((POWER ** LOVE)) - Write a script that displays the result of BREATH to t
 echo $((2#$BINARY)) - Write a script that converts a number from base 2 to base 10.
 printf "%x\n" $DECIMAL - Write a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variableDECIMAL.
 tr A-Za-z N-ZA-Mn-za-m - Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
-paste -d, - - cut -d, -f1 - 
+paste -d, - - | cut -d, -f1 - Write a script that prints every other line from the input, starting with the first line. 
 
 
