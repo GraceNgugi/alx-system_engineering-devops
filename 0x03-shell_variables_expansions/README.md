@@ -9,6 +9,6 @@ echo $((128 + TRUEKNOWLEDGE))- Write a script that prints the result of the addi
 echo $((POWER / DIVIDE))- Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 echo $((POWER ** LOVE)) - Write a script that displays the result of BREATH to the power LOVE
 echo $((2#$BINARY)) - Write a script that converts a number from base 2 to base 10.
-
+printf "%x\n" $DECIMAL - Write a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variableDECIMAL.
 
 
