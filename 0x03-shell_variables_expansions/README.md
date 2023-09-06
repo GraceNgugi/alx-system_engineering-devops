@@ -10,5 +10,7 @@ echo $((POWER / DIVIDE))- Write a script that prints the result of POWER divided
 echo $((POWER ** LOVE)) - Write a script that displays the result of BREATH to the power LOVE
 echo $((2#$BINARY)) - Write a script that converts a number from base 2 to base 10.
 printf "%x\n" $DECIMAL - Write a script that converts a number from base 10 to base 16. The number in base 10 is stored in the environment variableDECIMAL.
+tr A-Za-z N-ZA-Mn-za-m - Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
+paste -d, - - cut -d, -f1 - 
 
 
